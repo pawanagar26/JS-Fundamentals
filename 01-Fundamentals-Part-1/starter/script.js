@@ -110,12 +110,12 @@ Calculate both their BMIs using the formula, and store the results in two variab
 
 Log the value of BMIMark and BMIJohn to the console.
 
-BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a higher BMI than John. Log it to the console too
+    BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a higher BMI than John.Log it to the console too
 
-TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
+TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall.John weighs 92 kg and is 1.95 m tall.
 
-TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
-*/
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall.John weights 85 kg and is 1.76 m tall.
+
 
 //const massMark = 78;
 //const heightMark = 1.69;
@@ -130,3 +130,26 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 
 const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job} !`;
+console.log(jonasNew);
+
+console.log(`just a regular string...`);
+
+console.log('string with \n\
+multiple \n\
+lines');
+
+console.log(`string
+multiple
+lines`);
+
