@@ -194,7 +194,7 @@ console.log(century);
 2. Modify the outputs above to use template literals to include the BMI values in the outputs.
 
 Example: "Mark's BMI (28.3) is higher than John's (23.9)!" or "John's BMI (29.1) is higher than Mark's (27)!".
-*/
+
 
 const massMark = 78;
 const heightMark = 1.69;
@@ -209,3 +209,74 @@ if (BMIMark > BMIJohn) {
 } else {
     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}`);
 }
+
+//conversion
+// string to Number
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+//Number to string
+console.log(String(23), 23);
+
+//type coercion
+console.log('I am ' + 23 + ' year old');
+console.log('23' - '10' - 3);
+console.log('23' * '2');
+console.log('23' / '2');
+
+let n = '1' + 1; // '11'
+n = n - 1;
+console.log(n)
+
+
+// 5 falsy valus: 0, '', undefind, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 100;
+if (money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log('You should get a job!');
+}
+
+let height = 0;
+if (height) {
+    console.log('YAY! Height is defined');
+} else {
+    console.log('Height is UNDEFINED');
+}
+*/
+
+const age = '18';
+if (age === 18) console.log('You just beacame an  adult :D (strict)');
+
+if (age == 18) console.log('You just beacame an adult D: (loose)');
+
+const favourite = Number(prompt("what's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) { // 23 === 23 -> FALSE 
+    console.log('cool! 23 is an amazing number!')
+} else if (favourite === 7) {
+    console.log('7 is also a cool number')
+} else if (favourite === 9) {
+    console.log('9 is also a cool number')
+}
+else {
+    console.log('Number is not 23 or 7 or 9')
+}
+
+if (favourite !== 23) console.log('Why not 23?');
+
+
+
