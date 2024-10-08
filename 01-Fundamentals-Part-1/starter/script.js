@@ -265,7 +265,7 @@ const favourite = Number(prompt("what's your favourite number?"));
 console.log(favourite);
 console.log(typeof favourite);
 
-if (favourite === 23) { // 23 === 23 -> FALSE 
+if (favourite === 23) { // 23 === 23 -> FALSE
     console.log('cool! 23 is an amazing number!')
 } else if (favourite === 7) {
     console.log('7 is also a cool number')
@@ -435,6 +435,6 @@ Hints:
 GOOD LUCK �
 */
 
-const bill = 430;
-const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+// const bill = 430;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
