@@ -158,7 +158,8 @@ friends[2] = 'Jay';
 console.log(friends[2]);
 // friends = ['Bob', 'Alice']
 
-const jonas = ['jonas', 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+const firstName = 'Jonas';
+const jonas = ['firstName', 'Schmedtmann', 2037 - 1991, 'teacher', friends];
 console.log(jonas);
 console.log(jonas.length);
 
