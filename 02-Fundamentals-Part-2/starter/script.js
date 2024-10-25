@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 ///////////////////////////////////////
@@ -348,7 +348,7 @@ if (mark.bmi > john.bmi) {
   console.log(`${john.fullName}'s BMI(${john.bmi}) is higher than ${mark.fullName}'s BMI(${mark.bmi})`)
 };
 
-
+// The for loop
 // console.log('Lifting weight repetion 1');
 // console.log('Lifting weight repetion 2');
 // console.log('Lifting weight repetion 3');
