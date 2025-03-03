@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "targets": {
-    "main": false
-  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -14,10 +10,12 @@
   "author": "Jonas Schedtmann",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.2.1"
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
   },
   "dependencies": {
-    "fracty": "^1.0.9"
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
   }
 }
